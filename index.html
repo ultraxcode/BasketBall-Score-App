@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="cont1">
+                <h3 id="home">HOME</h3>
+                <p id="scoreHome">0</p>
+                <div class="scr-btn1">
+                     <button onclick="scrhme1()" id="scr-btn-home1">+1</button>
+                     <button onclick="scrhme2()" id="scr-btn-home2">+2</button>
+                     <button onclick="scrhme3()" id="scr-btn-home3">+3</button>
+                </div>
+            </div>
+            <div class="cont2" >
+                <h3 id="guest">GUEST</h3>
+                <p id="scoreGuest">0</p>
+                <div class="scr-btn2">
+                     <button onclick="scrgst1()" id="scr-btn-gst1">+1</button>
+                     <button onclick="scrgst2()" id="scr-btn-gst2">+2</button>
+                     <button onclick="scrgst3()" id="scr-btn-gst3">+3</button>
+                </div>
+            </div>
+       <div class="reset">
+           <button onclick="rstScore()" id="rst">RESET SCORES</button>
+       </div>
+        <script src="index.js"></script>
+    </body>
+</html>
